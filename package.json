@@ -4,7 +4,7 @@
   "description": "File transfer with c to c connection",
   "main": "index.js",
   "scripts": {
-    "build": "npx webpack",
+    "build": "npx webpack && tsc",
     "start": "node src/Server.js"
   },
   "author": "Zijia Zhang",

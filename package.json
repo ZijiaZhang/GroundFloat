@@ -1,0 +1,35 @@
+{
+  "name": "file-transfer-test",
+  "version": "1.0.0",
+  "description": "File transfer with c to c connection",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "start": "node src/Server.js"
+  },
+  "author": "Zijia Zhang",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/progress-stream": "^2.0.0",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/simple-peer": "^9.6.0",
+    "@types/socket.io": "^2.1.11",
+    "@types/socket.io-client": "^1.4.33",
+    "@types/streamsaver": "^2.0.0",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "simple-peer": "^9.7.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "streamsaver": "^2.0.4",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

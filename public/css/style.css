@@ -1,0 +1,62 @@
+.download-link{
+    display: block;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.download-link:hover{
+    background-color: lightgray;
+}
+
+button{
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+}
+
+button:hover{
+    background-color: #0062cc;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+#root{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.custom-file-label{
+    display: block;
+    width: 80%;
+    left: 10%;
+}
+
+#room_number{
+    width: 100%;
+}
+
+.message{
+    font-size: 30px;
+    color: red;
+    display: block;
+    text-align: center;
+}
+
+body{
+    font-size: 14px;
+    padding: 5px 12px;
+}
+
+img{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
